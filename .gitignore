@@ -63,4 +63,5 @@ yarn-debug.log*
 !/storage/.keep
 /tmp/storage/*
 !/tmp/storage/
-!/tmp/storage/.keep
+!/tmp/storage/.keep/tailscale
+tailscale/
