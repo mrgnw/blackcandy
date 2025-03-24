@@ -27,7 +27,7 @@ services:
       - ./config:/app/config
       - /Users/m/Music/BlackCandy:/music_files
     environment:
-      - HOST=music.skate-in.ts.net
+      - HOST=${HOSTNAME}
       - MEDIA_PATH=/music_files
 
 networks:
